@@ -1,0 +1,828 @@
+/* signup form style start */
+
+.logo h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .signup-img {
+    background-color: #F6F8FB;
+    width: auto;
+  }
+  
+  .logo span {
+    background: linear-gradient(90deg, #FE512E 0%, #F09619 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 800;
+  }
+  
+  .signup-form {
+    background-image: url('./assets/signup-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .signup-form button {
+    background: #F6F8FB !important;
+    color: #A7A7A7 !important;
+    transition: all 0.3s !important;
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+  }
+  
+  .signup-form button:hover {
+    background: linear-gradient(90deg, #FE512E 0%, #F09619 100%) !important;
+    color: white !important;
+  }
+  
+  p,
+  .form-check-label {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .form {
+    border: 1px solid rgba(244, 244, 244, 1);
+    width: 630px;
+  }
+  
+  input[type=text]:focus,
+  input[type=password]:focus,
+  input[type=number]:focus,
+  input[type=email]:focus,
+  #select:focus {
+    box-shadow: none;
+    border: 1px solid rgba(231, 76, 60, 1)
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    padding: 9px 13px;
+    height: 43.6px;
+  }
+  
+  .form-group input::placeholder,
+  .form-group select {
+    font-weight: 400;
+    font-size: 14px;
+    color: #A7A7A7;
+  }
+  
+  .form-group .password-icon {
+    position: absolute;
+    right: 13px;
+    bottom: 0;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-check-input,
+  .form-check-input:focus {
+    border: 2px solid rgba(244, 244, 244, 1);
+    width: 20px;
+    height: 20px;
+    background-color: none;
+  }
+  
+  input[type=checkbox]:checked {
+    background-color: #f06419;
+    box-shadow: none;
+  }
+  
+  input[type=checkbox]:focus {
+    box-shadow: none;
+    border: 2px solid rgba(244, 244, 244, 1);
+  }
+  
+  .terms-policy,
+  .signin {
+    color: rgba(231, 76, 60, 1);
+  }
+  
+  .create-society-btn {
+    background: linear-gradient(90deg, #FE512E 0%, #F09619 100%) !important;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .new-society-form {
+    width: 410px;
+    border-radius: 15px !important;
+  }
+  
+  .new-society-form h3 {
+    color: rgba(32, 34, 36, 1);
+  }
+  
+  .new-society-form label {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .new-society-form input {
+    border: 1px solid rgba(211, 211, 211, 1);
+    padding: 9px 13px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(167, 167, 167, 1);
+  }
+  
+  .save {
+    background: rgba(246, 248, 251, 1) !important;
+    color: rgba(32, 34, 36, 1) !important;
+    padding: 12px 53px;
+    border-radius: 10px;
+    width: 175px;
+    height: 51px;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    border: none !important;
+  }
+  
+  
+  .save:hover {
+    background: linear-gradient(90deg, #FE512E 0%, #F09619 100%) !important;
+    color: white !important;
+  }
+  
+  .cancle {
+    background: rgba(255, 255, 255, 1) !important;
+    width: 175px;
+    height: 51px;
+    color: black !important;
+    padding: 10px 53px;
+    border-radius: 10px;
+    border: 1px solid rgba(211, 211, 211, 1) !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+  }
+  
+  .custom-outline {
+    outline: 2px solid #4CAF50;
+    border: none;
+  }
+  
+  .custom-outline:focus {
+    outline: 2px solid #FF5722;
+  }
+  
+  @media (max-width:575px) {
+  
+    .logo h1,
+    .logo span {
+      font-size: 40px
+    }
+  
+  }
+  
+  @media (min-width: 767px) and (max-width: 1300px) {
+  
+    .signup-form {
+      padding: 20px;
+      justify-content: center;
+    }
+  
+    .new-society-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+  }
+  
+  /* signup form style end */
+  
+  
+  
+  
+  
+  /* header start */
+  
+  .notification-dropdown {
+    border-radius: 6px;
+    max-height: 250px;
+    overflow-y: auto;
+    font-size: 0.9rem;
+  }
+  
+  .notification-dropdown ul {
+    padding-left: 0;
+  }
+  
+  .notification-dropdown li {
+    padding: 6px 0;
+  }
+  
+  .notification-dropdown li:not(:last-child) {
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .notification-dropdown button {
+    font-size: 0.85rem;
+    text-decoration: underline;
+  }
+  
+  .notification-dropdown h6 {
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+  
+  .badge {
+    font-size: 0.7rem;
+  }
+  
+  .search-bar,
+  .search-bar input {
+    background: rgba(246, 248, 251, 1) !important;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  input:focus {
+    border: 0;
+    box-shadow: none;
+  }
+  
+  .search-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .notification-icon {
+    border: 1px solid rgba(211, 211, 211, 1)
+  }
+  
+  
+  /* header end */
+  
+  
+  
+  /* sidebar start */
+  
+ 
+  
+  /* income start */
+  
+  .dashboard-bg {
+    background: rgba(210, 215, 234, 0.476) !important;
+    min-height: 100vh;
+  }
+  
+  .card h6 {
+    font-size: 16px;
+    font-family: 500;
+  }
+  
+  .card p {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+  
+  /* chart start */
+  
+  .chart-container {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f9fafb;
+    max-width: 1000px;
+    height: 450px;
+  }
+  
+  .chart-container h2{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  
+  /* important members start */
+  
+  .important-member{
+    height: 450px;
+  }
+  
+  .text-red {
+    color: #ef4444;
+  }
+  
+  .important-member h2{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .add-btn{
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: white !important;
+    background: linear-gradient(90deg, #FE512E 0%, #F09619 100%) !important;
+  }
+  
+  .important-member p{
+    font-size: 13px;
+    font-weight: 400 !important;
+    color: rgba(167, 167, 167, 1);}
+  
+  .important-member strong {
+    color: black;
+  }
+  
+  .delete-btn{
+    color: rgba(231, 76, 60, 1) !important;
+    background: rgba(246, 248, 251, 1) !important;
+    width: 30px !important;
+    height: 24px;
+    line-height: 24px;
+    padding:0px  5px 3px ;
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  .edit-btn{
+    color: rgba(57, 151, 61, 1)!important;
+    background: rgba(246, 248, 251, 1) !important;
+    width: 30px !important;
+    height: 24px;
+    line-height: 24px;
+    padding:0px  5px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+  }
+  
+  /* maintenances start */
+  
+  .maintenances{
+    height: 450px;
+  }
+  
+  .maintenances h2{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .maintenances p{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .maintenances h6{
+    color: rgba(231, 76, 60, 1);
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .maintenances .maintenances-p{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .maintenances .maintenances-panding{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(167, 167, 167, 1);
+  
+  }
+  
+  /* activity start */
+  
+  .maintenances .activity-date{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(79, 79, 79, 1);
+  }
+  
+  .month-btn{
+      padding: 4px !important;
+      font-size: 18px;
+      font-weight: 600;
+      border: none;
+      border: 1px solid rgba(211, 211, 211, 1);
+      padding: 12px 14px;
+  }
+  
+  /* table complaint */
+  
+  .table{
+    background-color: rgba(86, 120, 233, 1);
+  }
+  
+  .Complaint-table{
+    height: 378px;
+    overflow-y: auto;
+  }
+  
+  .table td, .table th {
+    vertical-align: middle;
+  }
+  
+  .view-btn{
+    color: rgba(86, 120, 233, 1) !important;
+    background: rgba(246, 248, 251, 1) !important;
+    width: 30px !important;
+    height: 24px;
+    line-height: 24px;
+    padding:0px  5px 3px;
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .priority-btn{
+    width: 100px;
+    height: 31px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white !important;
+    border-radius: 20px !important;
+  }
+  
+  .status-btn{
+    width: 113px;
+    height: 31px !important;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px !important;
+    border: none;
+  }
+  
+  /* Centered Add Form Modal */
+  
+  .custom-modal .modal-dialog {
+    max-width: 410px;
+  }
+  
+  .custom-modal .Modal-Title{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+  
+  .custom-modal .Form-Label{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+  
+  .custom-modal .Form-Control{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(167, 167, 167, 1);
+    border: 1px solid rgba(211, 211, 211, 1)
+  }
+  
+  /* delete modal */
+  
+  .delete{
+    background: rgba(246, 248, 251, 1) !important;
+    color: rgba(32, 34, 36, 1) !important;
+    padding: 12px 53px;
+    border-radius: 10px;
+    width: 175px;
+    height: 51px;
+    font-size: 18px;
+    font-weight: 600 !important;
+    border: none !important;
+  }
+  
+  .delete:hover{
+    background-color: rgba(231, 76, 60, 1) !important;
+    color: white !important;
+  }
+  
+  /* edit modal */
+  
+  .custom-modal .Form-p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(167, 167, 167, 1);
+  }
+  
+  .radio-btn-box{
+    border: 1px solid rgba(211, 211, 211, 1);
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 113px;
+    height: 41px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(167, 167, 167, 1);
+  }
+  
+  .custom-radio .form-check-input:checked{
+    background-color: rgb(255, 165, 0);
+    border: none;
+  }
+  
+  .custom-radio .form-check-input:focus {
+    box-shadow: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgb(255, 165, 0);
+  }
+  
+  /* view modal */
+  
+  .view-p{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .view-span{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(167, 167, 167, 1);
+  }
+  
+  .view-strong{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(167, 167, 167, 1);
+  }
+  
+  
+  /* navbar start */
+  
+  .home-routing{
+    color: rgba(167, 167, 167, 1);
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .home-routing-span{
+    color: rgba(32, 34, 36, 1);
+    width: 12px !important;
+    display: inline-block !important;
+  }
+  
+  .current-page-routing{
+    color: rgba(86, 120, 233, 1);
+  }
+  
+  .navbar-span{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+  }
+  
+  /* financial management start */
+  
+  .financial-amt-card-shadow{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.06);
+  }
+  
+  .set-maintainance-btn{
+    background: linear-gradient(90deg, #FE512E 0%, #F09619 100%);
+    padding: 12px 14px;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .amt{
+    color: rgba(57, 151, 61, 1);
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .financial-status-btn {
+    width: 113px;
+    height: 31px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border-radius: 20px !important;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .financial-penalty-btn{
+    width: 65px;
+    height: 30px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border-radius: 20px !important;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .financial-Pnumber{
+    color: rgba(79, 79, 79, 1) !important;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .exp-amt-color{
+    color: rgba(57, 151, 61, 1) !important;
+  }
+  
+  .wing-name {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px; 
+    height: 28px; 
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(86, 120, 233, 1);
+    background: rgba(246, 248, 251, 1);
+    border-radius: 50%; 
+  }
+  
+  .financial-income-title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .financial-maintainance-table{
+    max-height: 545px !important;
+    overflow-y: auto !important;
+  }
+  
+  .maintainance-income-btn {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 18px 10px !important;
+    width: 135px !important;
+    border: 1px solid #007bff;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+  }
+  
+  .maintainance-income-btn-bg{
+    background: linear-gradient(90deg, #FE512E 0%, #F09619 100%) !important;
+    color: #fff !important;
+  }
+  
+  .maintainance-income-btn-withoutbg{
+    color: black !important;
+    background-color: white !important;
+    border-bottom: 2px solid orange !important;
+  }
+  
+  
+  .active-btn {
+    background-color: #007bff !important;
+    color: #fff !important;
+  }
+  
+  .pdf-btn{
+    color: rgba(231, 76, 60, 1);
+  }
+  
+  .jpg-btn{
+    color: #007bff;
+  }
+  
+  
+  
+  .card-des{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+  }
+  
+  .card-des-title{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: rgba(79, 79, 79, 1);
+  }
+  
+  .card-header-btn{
+    color: rgba(86, 120, 233, 1) !important;
+  }
+  
+  
+  /* profile start */
+  
+  .profile-dashboard-bg{
+    height: 100vh !important;
+  }
+  
+  .profile-bg{
+    background-image: url('./assets/profile-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 309px !important;
+  }
+  
+  .profile-btn{
+    background: linear-gradient(90deg, #FE512E 0%, #F09619 100%);
+    color: white !important;
+    padding: 12px 15px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+  }
+  
+  .profile-title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .other-income-btn{
+    font-size: 18px !important;
+  }
+  
+  .card-body-title{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: rgba(79, 79, 79, 1);
+  }
+  
+  
+  .card-body-button{
+    color: rgba(86, 120, 233, 1) !important;
+    background-color: rgba(86, 120, 233, 0.1) !important;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  /* other income dropdown start */
+  
+  .dropdown-menu {
+      width: 120px !important;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 0;
+  }
+  
+  .dropdown-item {
+      padding: 10px 0 0 10px !important;
+      cursor: pointer;
+      font-size: 14px !important;
+      font-weight: 400 !important;
+      color: rgba(167, 167, 167, 1) !important;
+      transition: all 0.2s !important;
+  }
+  
+  .dropdown-item:hover {
+      color: black !important;
+      font-weight: 600 !important;
+  }
+  
+  .dropdown-item:focus {
+    background-color: transparent !important;
+  }
+  
+  .dropdown-item.text-danger {
+      color: red;
+  }
+  
+  
+  /* Ensure that all elements stay within the viewport width */
+  .card-row {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .anouncement-icon{
+    bottom: 40px;
+    right: 28px;
+  }
+  
+  .anouncement-view-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(167, 167, 167, 1);
+  }
+  
+  .anouncement-view-p{
+    font-size: 18px;
+    font-weight: 400 !important;
+  }
